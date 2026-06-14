@@ -14,7 +14,7 @@
 - **Internal codename:** caviard-doc (caviard = redact in French)
 - **Repo path:** /Users/robin/Documents/redact-pdf/github/caviard-doc (cloned by Damien)
 - **What it does:** AI-powered SaaS for automatic PII redaction from PDF documents (irreversible, pixel-level)
-- **Tech stack:** Next.js frontend, Python/FastAPI backend, Azure AI (Document Intelligence + Language), Clerk auth, Stripe payments, Mixpanel analytics, Loops email, PostgreSQL
+- **Tech stack:** Next.js frontend, Python/FastAPI backend, Azure AI (Document Intelligence + Language), Clerk auth, Stripe payments, Mixpanel analytics (project ID: 3987109, EU cluster), Loops email, PostgreSQL
 - **PII categories detected:** Person, Email, Phone, Address, Organization, Date, IBAN, CreditCard
 - **Languages supported:** 100+ via Azure AI Language (automatic detection)
 - **Key features:** batch upload, Studio editor (manual edit), REST API, demo mode (no signup), excluded/always-redact terms, mask persistence, email notifications, retention controls
