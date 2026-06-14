@@ -80,6 +80,11 @@
 - Developer page exists with OpenAPI spec
 - Milestones defined in docs/api-strategy.md
 
+## Credentials & API Keys
+- **All credentials and API keys must be stored in 1Password, vault: Robin-AI. Never in files, env vars, or git.**
+- Fetch via: `op item get "<title>" --vault Robin-AI --reveal`
+- Current items in Robin-AI: "Trello - Redact PDF" (API key + token)
+
 ## Preferences & Working Style
 - Brevity: be clear, direct, concise
 - Role: personal operations assistant (sales/marketing + broader ops)
